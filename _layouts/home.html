@@ -17,7 +17,7 @@ body_classes: page-home
 </div>
 
 {% assign cards = site.posts | sort: 'date' | reverse %}
-{% assign limit = page.posts.limit | default: 3 %}
+{% assign limit = page.posts.limit | default: 9 %}
 {% assign sort_by = page.posts.sort | default: 'date' %}
 {% assign columns =  page.posts.columns | default: 3 %}
 {% capture columns %}col-lg-{{ 12 | divided_by:columns }}{% endcapture %}
