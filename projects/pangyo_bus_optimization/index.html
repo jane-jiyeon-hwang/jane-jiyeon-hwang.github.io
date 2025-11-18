@@ -367,147 +367,147 @@
         <!-- Your image here -->
         <img src="/projects/pangyo_bus_optimization/static/images/pangyo_ppt/pangyo_ppt-06.jpg" alt="Third research result visualization" loading="lazy"/>
         <h2 class="subtitle has-text-centered">
-         Problem statements
+         The project aims to present a practical short-term solution to reduce traffic congestion in Pangyo Techno Valley, where demand exceeds the road infrastructure’s capacity. Because long-term plans to expand infrastructure are already in place, our approach focuses instead on decreasing actual travel demand—specifically by reducing private vehicle usage and encouraging a modal shift toward public transportation.
        </h2>
      </div>
      <div class="item">
         <!-- Your image here -->
         <img src="/projects/pangyo_bus_optimization/static/images/pangyo_ppt/pangyo_ppt-07.jpg" alt="Third research result visualization" loading="lazy"/>
         <h2 class="subtitle has-text-centered">
-         Problem statements
+         We analyzed the spatial distribution of private vehicle trips using kernel density estimation and identified major commuter clusters through clustering analysis. For each cluster, we evaluated public transit accessibility and transfer structures, along with quantitative and qualitative indicators such as travel time, congestion, and detour rates. This analysis revealed that first- and last-mile barriers are the primary obstacles preventing commuters from switching to public transportation. To address this, we proposed optimization strategies for existing bus routes by analyzing route congestion, curvature, and operational productivity at key last-mile hubs. Additionally, for areas facing severe first-mile issues, we designed new routes using a Dijkstra-based shortest-path algorithm.
        </h2>
      </div>
      <div class="item">
         <!-- Your image here -->
         <img src="/projects/pangyo_bus_optimization/static/images/pangyo_ppt/pangyo_ppt-08.jpg" alt="Third research result visualization" loading="lazy"/>
         <h2 class="subtitle has-text-centered">
-         Problem statements
+         Data Analysis Pipeline
        </h2>
      </div>
      <div class="item">
         <!-- Your image here -->
         <img src="/projects/pangyo_bus_optimization/static/images/pangyo_ppt/pangyo_ppt-09.jpg" alt="Third research result visualization" loading="lazy"/>
         <h2 class="subtitle has-text-centered">
-         Problem statements
+         Exploratory Data Analysis (EDA) of Vehicle Origin–Destination (O/D) Data
        </h2>
      </div>
      <div class="item">
         <!-- Your image here -->
         <img src="/projects/pangyo_bus_optimization/static/images/pangyo_ppt/pangyo_ppt-10.jpg" alt="Third research result visualization" loading="lazy"/>
         <h2 class="subtitle has-text-centered">
-         Problem statements
+         Key Insights from the EDA
        </h2>
      </div>
      <div class="item">
         <!-- Your image here -->
         <img src="/projects/pangyo_bus_optimization/static/images/pangyo_ppt/pangyo_ppt-11.jpg" alt="Third research result visualization" loading="lazy"/>
         <h2 class="subtitle has-text-centered">
-         Problem statements
+         Preprocessing of Vehicle O/D Trip Data (Data Source: Korea Transport Institute)
        </h2>
      </div>
      <div class="item">
         <!-- Your image here -->
         <img src="/projects/pangyo_bus_optimization/static/images/pangyo_ppt/pangyo_ppt-12.jpg" alt="Third research result visualization" loading="lazy"/>
         <h2 class="subtitle has-text-centered">
-         Problem statements
+         Identifying Major Commuting Areas During Peak Hours: Kernel Density Estimation (KDE) Heatmap Visualization
        </h2>
      </div>
      <div class="item">
         <!-- Your image here -->
         <img src="/projects/pangyo_bus_optimization/static/images/pangyo_ppt/pangyo_ppt-13.jpg" alt="Third research result visualization" loading="lazy"/>
         <h2 class="subtitle has-text-centered">
-         Problem statements
+         Identification and Clustering of High-Intensity Car Commuting Zones via K-means Clustering
        </h2>
      </div>
      <div class="item">
         <!-- Your image here -->
         <img src="/projects/pangyo_bus_optimization/static/images/pangyo_ppt/pangyo_ppt-14.jpg" alt="Third research result visualization" loading="lazy"/>
         <h2 class="subtitle has-text-centered">
-         Problem statements
+         Clustering Results: Identified 8 Major Car Commuting Hotspots
        </h2>
      </div>
      <div class="item">
         <!-- Your image here -->
         <img src="/projects/pangyo_bus_optimization/static/images/pangyo_ppt/pangyo_ppt-15.jpg" alt="Third research result visualization" loading="lazy"/>
         <h2 class="subtitle has-text-centered">
-         Problem statements
+         Qualitative Analysis of Car Commuting Patterns: Using Naver Map route data, we examined factors such as the number of transfers, relative differences in total travel time between car and public transit, headways and service frequency of buses, and the accessibility of nearby transit stops.
        </h2>
      </div>
      <div class="item">
         <!-- Your image here -->
         <img src="/projects/pangyo_bus_optimization/static/images/pangyo_ppt/pangyo_ppt-16.jpg" alt="Third research result visualization" loading="lazy"/>
         <h2 class="subtitle has-text-centered">
-         Problem statements
+         Identification of Key Last-Mile Hubs: The “last mile” refers to the final segment of a commuter’s journey—from the nearest transit stop to their actual destination—which often represents the most inconvenient and time-consuming portion of public-transit travel. In this study, we identified key last-mile hubs by analyzing transit accessibility, walking distances to major workplaces, and connectivity gaps between existing bus stops and high-demand commuting clusters.
        </h2>
      </div>
      <div class="item">
         <!-- Your image here -->
         <img src="/projects/pangyo_bus_optimization/static/images/pangyo_ppt/pangyo_ppt-17.jpg" alt="Third research result visualization" loading="lazy"/>
         <h2 class="subtitle has-text-centered">
-         Problem statements
+         Using smart-card transit data and the Gyeonggi Bus API, we conducted a quantitative evaluation of bus routes serving key last-mile hubs. The analysis incorporated three operational metrics: (1) route directness, measured as the ratio between route length and straight-line distance; (2) service productivity, defined as the number of passengers per unit distance; and (3) congestion level, calculated as the ratio of onboard passengers to the vehicle’s maximum capacity.
        </h2>
      </div>
      <div class="item">
         <!-- Your image here -->
         <img src="/projects/pangyo_bus_optimization/static/images/pangyo_ppt/pangyo_ppt-18.jpg" alt="Third research result visualization" loading="lazy"/>
         <h2 class="subtitle has-text-centered">
-         Problem statements
+         Preprocessing of transit smart-card data: The dataset was analyzed offline at the Korea Data Safe Zone due to access restrictions, and all preprocessing was performed on-site. (Data source: Korea Transportation Safety Authority)
        </h2>
      </div>
      <div class="item">
         <!-- Your image here -->
         <img src="/projects/pangyo_bus_optimization/static/images/pangyo_ppt/pangyo_ppt-19.jpg" alt="Third research result visualization" loading="lazy"/>
         <h2 class="subtitle has-text-centered">
-         Problem statements
+         Preprocessing of the Gyeonggi-do Bus API data: Processed transit smart-card records collected over five weekdays (December 16–20, 2024) to ensure consistency with typical commuting patterns.
        </h2>
      </div>
      <div class="item">
         <!-- Your image here -->
         <img src="/projects/pangyo_bus_optimization/static/images/pangyo_ppt/pangyo_ppt-20.jpg" alt="Third research result visualization" loading="lazy"/>
         <h2 class="subtitle has-text-centered">
-         Problem statements
+         Route Evaluation Results: Bus 55 and Bus 87
        </h2>
      </div>
      <div class="item">
         <!-- Your image here -->
         <img src="/projects/pangyo_bus_optimization/static/images/pangyo_ppt/pangyo_ppt-21.jpg" alt="Third research result visualization" loading="lazy"/>
         <h2 class="subtitle has-text-centered">
-         Problem statements
+         Route Evaluation Results: Bus 351, S2, and Nuri 2
        </h2>
      </div>
      <div class="item">
         <!-- Your image here -->
         <img src="/projects/pangyo_bus_optimization/static/images/pangyo_ppt/pangyo_ppt-22.jpg" alt="Third research result visualization" loading="lazy"/>
         <h2 class="subtitle has-text-centered">
-         Problem statements
+         Dijkstra-Based New Route Design Pipeline: Estimating commuter demand at each bus stop; clustering stops and selecting priority stops for each cluster; constructing road network graphs for Gyeonggi-do and Seoul; and generating new routes using the Dijkstra algorithm with travel time as the cost function.
        </h2>
      </div>
      <div class="item">
         <!-- Your image here -->
         <img src="/projects/pangyo_bus_optimization/static/images/pangyo_ppt/pangyo_ppt-23.jpg" alt="Third research result visualization" loading="lazy"/>
         <h2 class="subtitle has-text-centered">
-         Problem statements
+         New Route Design Results: Cluster 0 and Cluster 1 Areas
        </h2>
      </div>
      <div class="item">
         <!-- Your image here -->
         <img src="/projects/pangyo_bus_optimization/static/images/pangyo_ppt/pangyo_ppt-24.jpg" alt="Third research result visualization" loading="lazy"/>
         <h2 class="subtitle has-text-centered">
-         Problem statements
+         New Route Design Results: Cluster 3 and Cluster 7 Areas
        </h2>
      </div>
      <div class="item">
         <!-- Your image here -->
         <img src="/projects/pangyo_bus_optimization/static/images/pangyo_ppt/pangyo_ppt-25.jpg" alt="Third research result visualization" loading="lazy"/>
         <h2 class="subtitle has-text-centered">
-         Problem statements
+         Key Insights and Expected Outcomes: By addressing the last-mile problem—the primary barrier preventing commuters from shifting to public transportation—this project enhances the efficiency of existing transit routes and strengthens first-mile connectivity. These improvements create a structural foundation that makes public transportation a more accessible and convenient choice for commuters. Ultimately, by promoting a modal shift away from private vehicles and reducing car dependency, the proposed strategies are expected to offer tangible, short-term relief for traffic congestion in Pangyo Techno Valley.
        </h2>
      </div>
      <div class="item">
       <!-- Your image here -->
       <img src="/projects/pangyo_bus_optimization/static/images/pangyo_ppt/pangyo_ppt-26.jpg" alt="Fourth research result visualization" loading="lazy"/>
       <h2 class="subtitle has-text-centered">
-        Causes of the problem
+        Thank you
       </h2>
     </div>
   </div>
