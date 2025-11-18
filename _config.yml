@@ -177,9 +177,9 @@ footer:
   enable_menu_footer_primary: true
   enable_menu_footer_secondary: true
   enable_menu_footer_tertiary: false
-  footer_primary_menu_title: "Projects"
-  footer_secondary_menu_title: "About"
-  footer_tertiary_menu_title: "Other"
+  # footer_primary_menu_title: "Projects"
+  # footer_secondary_menu_title: "About"
+  # footer_tertiary_menu_title: "Other"
 
 bottom:
   enable_bottom: false # show/hide the entire bottom (below the footer)
