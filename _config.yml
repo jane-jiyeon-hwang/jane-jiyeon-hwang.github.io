@@ -131,14 +131,14 @@ open_graph:
   meta_twitter_creator: "@"
 
 darkmode:
-  enable_dark_mode: true
-  show_dark_mode_toggle_in_header: true
+  enable_dark_mode: false
+  show_dark_mode_toggle_in_header: false
   show_dark_mode_toggle_in_bottom: false
-  show_dark_mode_toggle_in_mobile_menu: true
+  show_dark_mode_toggle_in_mobile_menu: false
 
 cookie_banner:
   enabled: false
-  show_manage_cookies_at_bottom: true
+  show_manage_cookies_at_bottom: false
 
 analytics:
   google_analytics_id: "" # G-XXXXXXXXXX
