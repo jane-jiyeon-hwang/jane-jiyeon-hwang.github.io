@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Spatial Accessibility to the Hospitals to Foreigner Using E2SFCA"
-date: 2024-03-11T16:49:03Z
+date: 2024-12-10T16:49:03Z
 authors: ["Jiyeon Hwang", "Now Sauvage", "Noah Miller", "Byungwoo Lee"]
 categories: ["Python", "GIS", "Accessibility"]
 description: Spatially analyzed hospital accessibility for foreign residents in South Korea using the E2SFCA method. Identified areas with low healthcare accessibility for foreigners and proposed regions where medical infrastructure should be expanded. Suggested strategies to improve overall healthcare accessibility by addressing sociocultural and psychological barriers faced by foreign residents.
