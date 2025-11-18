@@ -5,8 +5,8 @@ date: 2024-12-01T16:49:03Z
 authors: ["Jiyeon Hwang"]
 categories: ["Python", "logistic regression", "SMOTE", "Customer Behavior", "Purchase Prediction"]
 description: Analyzed the e-commerce customer behavior dataset (880K+ records) from Kaggle to identify customer segments and purchase patterns. Built purchase prediction model based on logistic regression with feature engineering and SMOTE data augmentation to address class imbalance, improving F1 score 0.078 to 0.85.
-thumbnail: "/assets/images/gen/blog/pangyo_thumbnail.png"
-image: "/assets/images/gen/blog/pangyo_thumbnail.png"
+thumbnail: "/assets/images/gen/blog/ecommerce_thumbnail.png"
+image: "/assets/images/gen/blog/ecommerce_thumbnail.png"
 external_url: "/projects/purchase_prediction/"
 ---
 
