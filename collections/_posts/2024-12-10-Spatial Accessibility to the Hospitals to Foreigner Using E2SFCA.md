@@ -7,6 +7,7 @@ categories: ["Python", "GIS", "Accessibility"]
 description: Spatially analyzed hospital accessibility for foreign residents in South Korea using the E2SFCA method. Identified areas with low healthcare accessibility for foreigners and proposed regions where medical infrastructure should be expanded. Suggested strategies to improve overall healthcare accessibility by addressing sociocultural and psychological barriers faced by foreign residents.
 thumbnail: "/assets/images/gen/blog/Spatial Accessibility to the Hospitals to Foreigners Using E2SFCA_GRGI Team Project Poster_Jiyeon Hwang-1.jpg"
 image: "/assets/images/gen/blog/Spatial Accessibility to the Hospitals to Foreigners Using E2SFCA_GRGI Team Project Poster_Jiyeon Hwang-1.jpg"
+external_url: "/projects/project_test/"
 ---
 
 Markdown is a lightweight markup language with plain-text-formatting syntax. Its design allows it to be converted to many output formats, but the original tool by the same name only supports HTML. Markdown is often used to format readme files, for writing messages in online discussion forums, and to create rich text using a plain text editor.
