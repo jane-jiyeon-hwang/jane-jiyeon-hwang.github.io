@@ -116,10 +116,10 @@ logo:
   logo_image_desktop_width: "28px"
   logo_image_mobile_height: "28px"
   logo_image_mobile_width: "28px"
-  show_logo_image_on_mobile: true
-  show_logo_image_on_desktop: true
-  show_logo_text_on_mobile: false
-  show_logo_text_on_desktop: false
+  show_logo_image_on_mobile: false
+  show_logo_image_on_desktop: false
+  show_logo_text_on_mobile: true
+  show_logo_text_on_desktop: true
 
 header: 
   fixed: false
@@ -127,8 +127,8 @@ header:
 open_graph:
   meta_opengraph_type: "website"
   meta_twitter_card: "summary"
-  meta_twitter_site: "@zerostaticio"
-  meta_twitter_creator: "@zerostaticio"
+  meta_twitter_site: "@"
+  meta_twitter_creator: "@"
 
 darkmode:
   enable_dark_mode: true
@@ -137,7 +137,7 @@ darkmode:
   show_dark_mode_toggle_in_mobile_menu: true
 
 cookie_banner:
-  enabled: true
+  enabled: false
   show_manage_cookies_at_bottom: true
 
 analytics:
@@ -149,19 +149,19 @@ analytics:
 
 comments:
   commento:
-    enabled: true # you must have a commento account and be on the correct domain. does not work locally.
+    enabled: false # you must have a commento account and be on the correct domain. does not work locally.
   disqus:
     shortname: "" # Your disqus shortcode for example "zerostatic". leave this blank ie "" to disable.
 
 newsletter:
   mailchimp:
-    form_action_url: https://zerostatic.us21.list-manage.com/subscribe/post?u=798e19886b83aaab346734382&amp;id=f1c526a772&amp;f_id=0027e3e6f0
-    form_title: "Let's keep in touch"
+    form_action_url: ""
+    form_title: ""
 
 contact_form: 
   use_netlify_form: false
-  use_formspree_form: true
-  formspree_endpoint: https://formspree.io/f/moqyklqv
+  use_formspree_form: false
+  formspree_endpoint: ""
   netlify_form_name: "contact"
 
 menu: 
@@ -184,5 +184,5 @@ footer:
 bottom:
   enable_bottom: false # show/hide the entire bottom (below the footer)
   enable_bottom_menu: false # if enabled, the bottom menu can be edited in `_data/menu.yml`
-  copyright_text: "© 2021 Zerostatic Themes"
+  copyright_text: "© 2025 Jiyeon Hwang"
   show_rss_icon: true

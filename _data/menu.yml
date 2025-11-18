@@ -32,50 +32,50 @@ main:
   - name: About
     url: /about/
     weight: 3
-  - name: Contact
-    url: /contact/
-    weight: 4
+  # - name: Contact
+  #   url: /contact/
+  #   weight: 4
   
 
-footer_primary:
-  - name: "Project 1"
-    url: /projects/project-1/
-  - name: "Project 2"
-    url: /projects/project-2/
-  - name: "Project 3"
-    url: /projects/project-3/
-  - name: "Project 4"
-    url: /projects/project-4/
+# footer_primary:
+#   - name: "Project 1"
+#     url: /projects/project-1/
+#   - name: "Project 2"
+#     url: /projects/project-2/
+#   - name: "Project 3"
+#     url: /projects/project-3/
+#   - name: "Project 4"
+#     url: /projects/project-4/
 
-footer_secondary:
-  - name: Blog
-    url: /blog/
-    weight: 2
-  - name: About
-    url: /about/
-    weight: 3
-  - name: Contact
-    url: /contact/
-    weight: 4
-  - name: Privacy Policy
-    url: /privacy-policy/
-    weight: 1
-  - name: Terms and Conditions
-    url: /terms-and-conditions/
-    weight: 2
+# footer_secondary:
+#   - name: Blog
+#     url: /blog/
+#     weight: 2
+#   - name: About
+#     url: /about/
+  #   weight: 3
+  # - name: Contact
+  #   url: /contact/
+  #   weight: 4
+  # - name: Privacy Policy
+  #   url: /privacy-policy/
+  #   weight: 1
+  # - name: Terms and Conditions
+  #   url: /terms-and-conditions/
+  #   weight: 2
 
-footer_tertiary:
-  - name: Privacy Policy
-    url: /privacy-policy/
-    weight: 1
-  - name: Terms and Conditions
-    url: /terms-and-conditions/
-    weight: 2
+# footer_tertiary:
+#   - name: Privacy Policy
+#     url: /privacy-policy/
+#     weight: 1
+#   - name: Terms and Conditions
+#     url: /terms-and-conditions/
+#     weight: 2
 
-bottom:
-  - name: Privacy Policy
-    url: /privacy-policy/
-    weight: 3
-  - name: Terms and Conditions
-    url: /terms-and-conditions/
-    weight: 4
+# bottom:
+#   - name: Privacy Policy
+#     url: /privacy-policy/
+#     weight: 3
+#   - name: Terms and Conditions
+#     url: /terms-and-conditions/
+#     weight: 4
