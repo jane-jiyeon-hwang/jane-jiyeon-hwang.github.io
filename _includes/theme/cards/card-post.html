@@ -15,6 +15,7 @@
 {% assign show_read_more = include.show_read_more %}
 {% assign client = include.client %}
 {% assign thumbnail_size = include.thumbnail_size %}
+{% assign affiliation = include.affiliation %}
 
 <div class="card card-post card-{{ style }} {% if thumbnail %}card-has-thumbnail{% endif %} {% if icon or fa_icon %}card-has-icon{% endif %}">
 
@@ -53,6 +54,12 @@
         <a href="{{ link | relative_url }}">{{ title }}</a>
       </h3>
     </div>
+
+    {% if affiliation %}
+    <div class="card-affiliation">
+      {{ affiliation }}
+    </div>
+    {% endif %}
 
     {% if client %}
       <div class="card-client">

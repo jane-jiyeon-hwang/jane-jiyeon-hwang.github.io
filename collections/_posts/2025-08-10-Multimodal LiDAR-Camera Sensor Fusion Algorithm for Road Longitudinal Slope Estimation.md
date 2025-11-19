@@ -8,6 +8,7 @@ description: Developed a DBSCAN-based algorithm integrating LiDAR point clouds a
 thumbnail: "/assets/images/gen/blog/multimodal_thumbnail.png"
 image: "/assets/images/gen/blog/multimodal_thumbnail.png"
 external_url: "/projects/multimodal_sensor_fusion/"
+affiliation: "Seoul National University"
 ---
 
 Markdown is a lightweight markup language with plain-text-formatting syntax. Its design allows it to be converted to many output formats, but the original tool by the same name only supports HTML. Markdown is often used to format readme files, for writing messages in online discussion forums, and to create rich text using a plain text editor.
