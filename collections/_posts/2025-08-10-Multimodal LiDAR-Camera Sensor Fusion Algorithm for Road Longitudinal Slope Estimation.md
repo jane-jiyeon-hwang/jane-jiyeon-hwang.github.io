@@ -5,8 +5,8 @@ date: 2025-08-10T16:49:03Z
 authors: ["Jiyeon Hwang"]
 categories: ["Python", "Multimodal", "Sensor Fusion", "LiDAR", "DBSCAN", "Road Longitudinal Estimation"]
 description: Developed a DBSCAN-based algorithm integrating LiDAR point clouds and semantic segmentation images to accurately extract road surfaces, improving longitudinal slope estimation accuracy by 30%.
-thumbnail: "/assets/images/gen/blog/ecommerce_thumbnail.png"
-image: "/assets/images/gen/blog/ecommerce_thumbnail.png"
+thumbnail: "/assets/images/gen/blog/multimodal_thumbnail.png"
+image: "/assets/images/gen/blog/multimodal_thumbnail.png"
 external_url: "/projects/multimodal_sensor_fusion/"
 ---
 
