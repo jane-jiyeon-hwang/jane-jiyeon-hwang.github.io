@@ -296,16 +296,15 @@
         <div class="content has-text-justified">
           <!-- TODO: Replace with your paper abstract -->
           <p>
-            From July to August 2025, I worked as a research intern at the Transportation Planning Laboratory, Graduate School of Environmental Studies, Seoul National University, where I contributed to the national R&D project “AI-based Road Safety Assessment.”<br>
-            The goal of this project was to adapt the internationally used Road Assessment Programme (RAP) to the Korean road environment by developing AI-driven road-safety evaluation technologies.<br>
+            From July to August 2025, I worked as a research intern at the Transportation Planning Laboratory, Seoul National University, where I contributed to the national R&D project "AI-based Road Safety Assessment." The goal of this project was to adapt the internationally used Road Assessment Programme (RAP) to the Korean road environment by developing AI driven road safety evaluation technologies.<br>
             <br>
             I was primarily responsible for two tasks.<br>
-            First, I conducted a quantitative analysis of false-negative (FN) cases in a YOLO-based pedestrian detection model, identifying failure patterns and improving the model's detection performance.<br>
-            Second, I designed a multimodal sensor-fusion algorithm (LiDAR + camera) that integrates road-scene imagery with LiDAR point-cloud data to compute road longitudinal slope with higher accuracy.<br>
+            First, I conducted a quantitative analysis of false-negative (FN) cases in a YOLO pedestrian detection model, identifying failure patterns and improving the model's detection performance.<br>
+            Second, I designed a multimodal sensor-fusion algorithm (LiDAR + camera) that integrates road scene imagery with LiDAR point cloud data to compute road longitudinal slope with higher accuracy.<br>
             <br>
-            In this second task, I utilized the outputs of pre-trained vision models (semantic segmentation and YOLO) and developed a pipeline involving geometric calibration, 3D-to-2D projection, and DBSCAN-based clustering to precisely extract road-surface points.
-            Traditional methods suffered from high error rates due to noise from roadside objects—such as guardrails, trees, and vehicles—being mistakenly included during image-LiDAR alignment.
-            To address this, I developed a DBSCAN-based road-surface extraction algorithm that effectively removes such noise, ultimately reducing longitudinal slope estimation error by approximately 30%.
+            In this second task, I utilized the outputs of pretrained vision models (semantic segmentation and YOLO) and developed a pipeline involving geometric calibration, 3D-to-2D projection, and DBSCAN based clustering to precisely extract road-surface points.
+            Traditional methods suffered from high error rates due to noise from roadside objects—such as guardrails, trees, and vehicles-being mistakenly included during image-LiDAR alignment.
+            To address this, I developed a DBSCAN based road surface extraction algorithm that effectively removes such noise, ultimately reducing longitudinal slope estimation error by approximately 30%.
           </p>
         </div>
         
@@ -322,46 +321,40 @@
 </section>
 <!-- End paper abstract -->
 
-
-<!-- Image carousel -->
 <section class="hero is-small">
   <div class="hero-body">
-    <div class="container">
-      <div id="results-carousel" class="carousel results-carousel">
-       <div class="item">
-        <!-- TODO: Replace with your research result images -->
-        <img src="/projects/pangyo_bus_optimization/static/images/pangyo_ppt/pangyo_ppt-01.jpg" alt="First research result visualization" loading="lazy"/>
-        <!-- TODO: Replace with description of this result -->
-        <h2 class="subtitle has-text-centered">
-          Optimization of Bus Routes in Pangyo Techno Valleys
-        </h2>
+    <div class="container is-max-desktop">
+
+      <!-- 소제목 -->
+      <h2 class="title is-3">Method Overview</h2>
+
+      <!-- 본문 -->
+      <div class="content has-text-justified">
+        <p>
+          In this project, we developed a multimodal LiDAR-Camera sensor fusion pipeline designed
+          to improve road longitudinal slope estimation. The fusion pipeline integrates LiDAR point
+          clouds with semantic segmentation outputs from camera images to isolate road-surface
+          points and remove noise from roadside objects. This enhances the stability and reliability
+          of slope estimation under real world conditions.
+        </p>
       </div>
-      <div class="item">
-        <!-- Your image here -->
-        <img src="/projects/pangyo_bus_optimization/static/images/pangyo_ppt/pangyo_ppt-02.jpg" alt="Second research result visualization" loading="lazy"/>
-        <h2 class="subtitle has-text-centered">
-          Contents
-        </h2>
-      </div>
-      <div class="item">
-        <!-- Your image here -->
-        <img src="/projects/pangyo_bus_optimization/static/images/pangyo_ppt/pangyo_ppt-03.jpg" alt="Third research result visualization" loading="lazy"/>
-        <h2 class="subtitle has-text-centered">
-         Problem statements
-       </h2>
-     </div> 
-     <div class="item">
-      <!-- Your image here -->
-      <img src="/projects/pangyo_bus_optimization/static/images/pangyo_ppt/pangyo_ppt-04.jpg" alt="Fourth research result visualization" loading="lazy"/>
-      <h2 class="subtitle has-text-centered">
-        Causes of the problem
-      </h2>
+
+      <!-- 사진 -->
+      <figure class="image" style="margin-top: 1.5rem;">
+        <img 
+          src="/static/images/364804.999997_raw.png" 
+          alt="Method Overview Visualization"
+          loading="lazy"
+          style="border-radius: 10px;">
+        <figcaption class="has-text-centered has-text-grey" style="margin-top: 0.5rem;">
+          Figure 1. Multimodal LiDAR-Camera Sensor Fusion Pipeline Overview.
+        </figcaption>
+      </figure>
+
     </div>
   </div>
-</div>
-</div>
 </section>
-<!-- End image carousel -->
+
 
 
 
@@ -426,18 +419,18 @@
 
 
 <!-- Paper poster -->
-<section class="hero is-small is-light">
+<!-- <section class="hero is-small is-light">
   <div class="hero-body">
     <div class="container">
-      <h2 class="title">Poster</h2>
+      <h2 class="title">Poster</h2> -->
 
       <!-- TODO: Replace with your poster PDF -->
-      <iframe  src="/projects/purchase_prediction/static/pdfs/purchase_prediction_ppt.pdf" width="100%" height="750">
+      <!-- <iframe  src="/projects/purchase_prediction/static/pdfs/purchase_prediction_ppt.pdf" width="100%" height="750">
           </iframe>
         
       </div>
     </div>
-  </section>
+  </section> -->
 <!--End paper poster -->
 
 
