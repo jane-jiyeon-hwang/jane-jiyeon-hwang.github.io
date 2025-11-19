@@ -767,3 +767,8 @@ a:focus {
 .publication-body p {
     font-family: 'Times New Roman', Times, serif !important;
 }
+
+.content.has-text-justified,
+.content.has-text-justified p {
+    color: #292b2e !important; 
+}
