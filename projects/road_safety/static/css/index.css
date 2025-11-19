@@ -752,18 +752,3 @@ a:focus {
 .footer.footer p {
   font-size: 0.75rem;
 }
-
-/* Change font for authors (names + affiliation) */
-.publication-authors,
-.publication-authors span,
-.publication-authors .author-block {
-    font-family: 'Times New Roman', Times, serif !important;
-}
-
-/* Change font for all main text content (abstract, paragraphs, sections) */
-.content.has-text-justified,
-.content.has-text-justified p,
-.publication-body,
-.publication-body p {
-    font-family: 'Times New Roman', Times, serif !important;
-}
