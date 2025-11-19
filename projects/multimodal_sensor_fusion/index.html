@@ -211,9 +211,9 @@
 
                   <div class="is-size-5 publication-authors">
                     <!-- TODO: Replace with your institution and conference/journal info -->
-                    <span class="author-block">Research Intern (Python)<br>Seoul National University, Transportation Planning Lab</span>
+                    <span class="author-block">Seoul National University<br>Transportation Planning Lab</span>
                     <!-- TODO: Remove this line if no equal contribution -->
-                    <span class="eql-cntrb"><small><br><sup>*</sup></small></span>
+                    <span class="eql-cntrb"><small><br><sup>* Research Intern (Python)</sup></small></span>
                   </div>
 
                   <div class="column has-text-centered">
@@ -292,17 +292,20 @@
   <div class="container is-max-desktop">
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
-        <h2 class="title is-3">Abstract</h2>
+        <h2 class="title is-3">Overview</h2>
         <div class="content has-text-justified">
           <!-- TODO: Replace with your paper abstract -->
           <p>
-            This study aims to develop short-term mitigation strategies to address severe commuting congestion in Pangyo Techno Valley Phase 2 and 3. The current traffic conditions originate from travel demand that exceeds the capacity of existing road infrastructure. Although mid- to long-term infrastructure upgrades are underway, they are expected to take at least two to three years to materialize. Therefore, this research focuses on short-term solutions centered on reducing overall travel demand, primarily by decreasing private car usage and encouraging a shift toward public transportation.<br>
+            From July to August 2025, I worked as a research intern at the Transportation Planning Laboratory, Graduate School of Environmental Studies, Seoul National University, where I contributed to the national R&D project “AI-based Road Safety Assessment.”<br>
+            The goal of this project was to adapt the internationally used Road Assessment Programme (RAP) to the Korean road environment by developing AI-driven road-safety evaluation technologies.<br>
             <br>
-            Using passenger vehicle origin–destination (O/D) data from Q1–Q4 of 2023, the study analyzes the spatial distribution of travel flows and identifies high-demand commuting clusters through K-means clustering. For these major clusters, public transit accessibility, transfer structures, travel time, and congestion levels were evaluated both quantitatively and qualitatively. The analysis highlights that first-mile and last-mile barriers are the primary obstacles preventing commuters from switching to public transit. Based on these findings, the study proposes two practical improvement strategies.<br>
+            I was primarily responsible for two tasks.<br>
+            First, I conducted a quantitative analysis of false-negative (FN) cases in a YOLO-based pedestrian detection model, identifying failure patterns and improving the model's detection performance.<br>
+            Second, I designed a multimodal sensor-fusion algorithm (LiDAR + camera) that integrates road-scene imagery with LiDAR point-cloud data to compute road longitudinal slope with higher accuracy.<br>
             <br>
-            First, by assessing route congestion, alignment efficiency, and operational productivity of existing bus services, the study suggests adjusting headways on overcrowded routes and restructuring inefficient routes.<br>
-            Second, for clusters underserved by current routes due to poor first-mile accessibility, new bus routes were designed using a Dijkstra-based shortest-path approach.<br>
-            Overall, this research presents data-driven, short-term solutions that enhance public transit connectivity as a means to alleviate congestion. In the long term, the proposed strategies provide a foundation for building a more sustainable transportation system and reducing dependency on private automobiles within the urban core.
+            In this second task, I utilized the outputs of pre-trained vision models (semantic segmentation and YOLO) and developed a pipeline involving geometric calibration, 3D-to-2D projection, and DBSCAN-based clustering to precisely extract road-surface points.
+            Traditional methods suffered from high error rates due to noise from roadside objects—such as guardrails, trees, and vehicles—being mistakenly included during image-LiDAR alignment.
+            To address this, I developed a DBSCAN-based road-surface extraction algorithm that effectively removes such noise, ultimately reducing longitudinal slope estimation error by approximately 30%.
           </p>
         </div>
         
