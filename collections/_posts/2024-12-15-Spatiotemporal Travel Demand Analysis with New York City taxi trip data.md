@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Spatiotemporal Travel Demand Analysis with New York City taxi trip data"
+title: "Spatiotemporal Travel Demand Analysis with NYC Taxi Trip Data Using Spatial Statistics"
 date: 2024-12-15T16:49:03Z
 authors: ["Jiyeon Hwang"]
-categories: ["Python", "Python", "R", "NYC taxi trip", "areal interpolation", "Moran's I", "kernel density estimation"]
+categories: ["Python", "R", "NYC taxi trip", "areal interpolation", "Moran's I", "kernel density estimation"]
 description: Preprocessed 5.5M NYC taxi trip records using Python and R, cleaning data, aggregating hourly trips, and transforming spatial unit of analysis via areal interpolation. Visualized spatiotemporal demand patterns through spatial statistics (KDE, Moran's I), interpreting results within socioeconomic context.
 thumbnail: "/assets/images/gen/blog/travel_demand_thumbnail.png"
 image: "/assets/images/gen/blog/travel_demand_thumbnail.png"
