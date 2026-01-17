@@ -8,6 +8,7 @@ description: Optimized bus routes by analyzing vehicle trip and transit ridershi
 thumbnail: "/assets/images/gen/blog/pangyo_thumbnail.png"
 image: "/assets/images/gen/blog/pangyo_thumbnail.png"
 external_url: "/projects/pangyo_bus_optimization/"
+affiliation: "2nd Place out of 100 teams, 2025 Seongnam City Data Analysis Competition"
 ---
 
 Markdown is a lightweight markup language with plain-text-formatting syntax. Its design allows it to be converted to many output formats, but the original tool by the same name only supports HTML. Markdown is often used to format readme files, for writing messages in online discussion forums, and to create rich text using a plain text editor.

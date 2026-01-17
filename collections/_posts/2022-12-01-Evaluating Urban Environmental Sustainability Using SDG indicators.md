@@ -8,6 +8,7 @@ description: Led the analysis of urban housing deterioration and transportation 
 thumbnail: "/assets/images/gen/blog/poster_urban_sus.png"
 image: "/assets/images/gen/blog/poster_urban_sus.png"
 external_url: "/projects/urban_sustainability/"
+affiliation: "2nd Place, 2022 Kyung Hee University Spatial Analysis Competition"
 ---
 
 Markdown is a lightweight markup language with plain-text-formatting syntax. Its design allows it to be converted to many output formats, but the original tool by the same name only supports HTML. Markdown is often used to format readme files, for writing messages in online discussion forums, and to create rich text using a plain text editor.
