@@ -5,8 +5,8 @@ date: 2022-06-22T16:49:03Z
 authors: ["Jiyeon Hwang"]
 categories: ["Python"]
 description: Presented a poster identifying spatial disparities in access to COVID-19 testing facilities between metropolitan and non-metropolitan regions in Korea through network analysis.
-thumbnail: "/assets/images/gen/blog/poster_urban_sus.png"
-image: "/assets/images/gen/blog/covid test facilities poster.jpg"
+thumbnail: "/assets/images/gen/blog/covid_test_facilities_poster.jpg"
+image: "/assets/images/gen/blog/covid_test_facilities_poster.jpg"
 external_url: "/projects/service_area_COVID_testing"
 affiliation: "2022 Annual Conference of the Korean Geographical Society"
 ---
