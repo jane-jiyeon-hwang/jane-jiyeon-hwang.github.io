@@ -2,7 +2,7 @@
 layout: home
 permalink: "/"
 # title: "Curate is a premium portfolio for <strong>Jekyll.</strong>"
-description: "Hello"
+description: ""
 meta_description: "Jiyeon Hwang"
 meta_title: Jiyeon Hwang
 subscribe: false
