@@ -37,8 +37,8 @@ title: "Projects"
                     date=post.date
                     title=post.title
                     description=post.description
-                    url=post.url
-                    external_url=post.external_url 
+                    url=post.external_url | default: post.url
+                    external_url=post.external_url
                     thumbnail=post.thumbnail
                     affiliation=post.affiliation
                     style="row"
