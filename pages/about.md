@@ -6,7 +6,7 @@ permalink: "/about/"
 description:
 image: ""
 ---
-<img src="/assets/images/gen/content/IMG_2683.jpg" style="width:50%; display:block; margin:auto;">
+<img src="/assets/images/gen/content/Jiyeon Hwang_profile.PNG" style="width:50%; display:block; margin:auto;">
 
 <!-- # Creating Modern Websites
 
