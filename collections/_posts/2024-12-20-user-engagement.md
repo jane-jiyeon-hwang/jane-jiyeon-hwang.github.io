@@ -37,7 +37,7 @@ WAU 하락이 신규 유입 감소, 기존 유저 리텐션 저하, 디바이스
 - 이메일 오픈은 유지/증가했지만 clickthrough 감소를 확인해 리인게이지먼트 경로의 friction 가능성 제시
 - 분석 결과를 바탕으로 모바일 앱 점검 및 이메일 링크/랜딩 경험 검증 우선순위를 제안
 
-## 분석 과정 및 결과
+## 상세 분석 과정 노트 및 결과
 
 
 ### 1. 주간 활성화 유저(WAU) 확인
@@ -88,7 +88,7 @@ yammer는 engagement를 프로덕트와 상호작용함으로써 서버가 응�
 가설 5 : 여름 휴가를 많이 가는 시즌이 언제인지 산업 특성을 고려해서 산업별로 조사해본다
 
 ### 3. 데이터 테이블
-#### Table1 :  tutorial.yammer_users
+### Table1 :  tutorial.yammer_users
 
 유저 당 고유한 한 행을 가지는 테이블. 유저 계정의 정보가 담겨있음
 
@@ -101,12 +101,11 @@ yammer는 engagement를 프로덕트와 상호작용함으로써 서버가 응�
 | company_id | 유저의 회사 ID |
 | language | 유저가 선택한 언어 |
 
-#### Table2 : tutorial.yammer_events
+### Table2 : tutorial.yammer_events
 
 이벤트 당 한개의 행을 가지고 있음. (이벤트 = 유저가 yammer에서 하는 활동)
 
 로그인, 메세지, 검색, 로그인 과정, 회원가입 과정 등
-
 | Column | Description |
 |------|-------------|
 | user_id | 유저의 고유 ID |
@@ -125,11 +124,12 @@ search_autocomplete : 검색 자동 완성 기능에서 선택하는 이벤트
 search_run : 유저가 검색 쿼리를 작동하는거 그리고 검색 결과를 가져오는거
 search_click_result_X : 검색 결과 페이지에서 1부터 10까지 숫자중 n 번째 결과를 클릭
 send_message : 메세지 보내는거
-view_inbox : 메세지 인박스 조회|
+view_inbox : 메세지 인박스 조회  |
 | location | IP주소 수집한 것을 바탕으로 각 이벤트가 일어난 국가 |
 | device | 각 이벤트 로그에 사용된 디바이스 타입 |
 
-#### Table3 : tutorial.yammer_emails
+
+### Table3 : tutorial.yammer_emails
 
 이메일을 보내는 특정 이벤트 정보를 포함
 
@@ -140,7 +140,7 @@ view_inbox : 메세지 인박스 조회|
 | action | sent_weekly_digest : 기존의 관련 대화를 보여주는 요약 이메일을 받음, email_open : 유저가 이메일 조회, email_clickthrough : 이메일에 있는 링크 클릭 |
 
 
-#### Table4 : benn.dimension_rollup_periods
+### Table4 : benn.dimension_rollup_periods
 
 특정 시간 단위로 집계할 때 활용하는 보조 테이블
 
