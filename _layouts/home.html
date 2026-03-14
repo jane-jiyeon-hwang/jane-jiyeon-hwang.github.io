@@ -64,7 +64,7 @@ body_classes: page-home
 </div>
 {% endif %}
 
-<!-- {% assign cards = site.posts | sort: 'date' | reverse %}
+{% assign cards = site.posts | sort: 'date' | reverse %}
 {% assign limit = page.posts.limit | default: 3 %}
 {% assign sort_by = page.posts.sort | default: 'date' %}
 {% assign columns =  page.posts.columns | default: 3 %}
@@ -104,7 +104,7 @@ body_classes: page-home
     </div>
   </div>
 </div>
-{% endif %} -->
+{% endif %}
 
 {% if site.newsletter.mailchimp.form_action_url and site.newsletter.mailchimp.form_action_url != '' %}
   <div class="section section-base-bg-2">
