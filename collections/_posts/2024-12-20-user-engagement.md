@@ -92,8 +92,9 @@ yammer는 engagement를 프로덕트와 상호작용함으로써 서버가 응�
 
 유저 당 고유한 한 행을 가지는 테이블. 유저 계정의 정보가 담겨있음
 
+| Column | Description |
+|------|-------------|
 | user_id | 유저의 고유 ID |
-| --- | --- |
 | created_at | 처음 회원가입한 시점 |
 | state | 유저의 상태 (active or pending) |
 | activated_at | 활성화 된 계정이라면 활성화 된 시점 |
@@ -106,8 +107,9 @@ yammer는 engagement를 프로덕트와 상호작용함으로써 서버가 응�
 
 로그인, 메세지, 검색, 로그인 과정, 회원가입 과정 등
 
+| Column | Description |
+|------|-------------|
 | user_id | 유저의 고유 ID |
-| --- | --- |
 | occurred_at | 이벤트 발생 시간 |
 | event_type | 이벤트 타입. signup_flow, engagement 두가지 타입.
 signup_flow : 유저의 인증 과정에서 발생하는 모든 활동들
@@ -123,8 +125,7 @@ search_autocomplete : 검색 자동 완성 기능에서 선택하는 이벤트
 search_run : 유저가 검색 쿼리를 작동하는거 그리고 검색 결과를 가져오는거
 search_click_result_X : 검색 결과 페이지에서 1부터 10까지 숫자중 n 번째 결과를 클릭
 send_message : 메세지 보내는거
-view_inbox : 메세지 인박스 조회
- |
+view_inbox : 메세지 인박스 조회|
 | location | IP주소 수집한 것을 바탕으로 각 이벤트가 일어난 국가 |
 | device | 각 이벤트 로그에 사용된 디바이스 타입 |
 
@@ -132,12 +133,12 @@ view_inbox : 메세지 인박스 조회
 
 이메일을 보내는 특정 이벤트 정보를 포함
 
+| Column | Description |
+|------|-------------|
 | user_id | 유저 고유 ID |
-| --- | --- |
 | occurred_at | 이벤트가 일어난 시각 |
-| action | sent_weekly_digest : 기존의 관련 대화를 보여주는 요약 이메일을 받음
-email_open : 유저가 이메일 조회
-email_clickthrough : 이메일에 있는 링크 클릭 |
+| action | sent_weekly_digest : 기존의 관련 대화를 보여주는 요약 이메일을 받음, email_open : 유저가 이메일 조회, email_clickthrough : 이메일에 있는 링크 클릭 |
+
 
 #### Table4 : benn.dimension_rollup_periods
 
@@ -148,20 +149,11 @@ email_clickthrough : 이메일에 있는 링크 클릭 |
 SQL에서 INTERVAL()을 사용할 수도 있지만, 미리 정의된 테이블을 사용하면
 
 복잡한 쿼리를 단순화 할 수 있음. → 데이터 분석을 할 때 특정한 시간 단위별(예: 7일 단위, 30일 단위)로 데이터를 쉽게 조회 할 수 있음.
-#### Table4 : benn.dimension_rollup_periods
 
-특정 시간 단위로 집계할 때 활용하는 보조 테이블
-
-최근 7일 간의 데이터 같은 롤링 기간을 정의할 때 유용
-
-SQL에서 INTERVAL()을 사용할 수도 있지만, 미리 정의된 테이블을 사용하면
-
-복잡한 쿼리를 단순화 할 수 있음. → 데이터 분석을 할 때 특정한 시간 단위별(예: 7일 단위, 30일 단위)로 데이터를 쉽게 조회 할 수 있음.
-
+| Column | Description |
+|------|-------------|
 | period_id | 기간 집계의 타입. period 1007은 7일을 단위로 집계 |
-| --- | --- |
-| time_id | 특정한 데이터 포인트를 나타내는 ID
-차트의 축에 들어감. time_id가 2014-08-01이고 7일 간격으로 집계했을 경우에 8월 1일을 끝으로 하는 7일치 데이터를 나타냄(2014-07-25~2014-08-01) |
+| time_id | 특정한 데이터 포인트를 나타내는 ID. 차트의 축에 들어감. time_id가 2014-08-01이고 7일 간격으로 집계했을 경우에 8월 1일을 끝으로 하는 7일치 데이터를 나타냄|
 | pst_start | 이 롤업 기간이 시작되는 시간(태평양 표준시) |
 | pst_end | 이 롤업 시간이 끝나는 시간 |
 | utc_start | pst_start의 UTC 버전 |
