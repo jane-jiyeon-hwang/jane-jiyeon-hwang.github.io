@@ -3,7 +3,7 @@ layout: post
 title: "Investigating a Drop in User Engagement"
 date: 2024-12-20T16:49:03Z
 authors: ["Jiyeon Hwang"]
-categories: ["SQL", "Cohort Analysis", "User Engagement", "Behavior Analysis"]
+categories: ["SQL", "Cohort Analysis", "User Engagement", "CTR", "Weekly Active Users", "Kyung Hee University Business Analytics & Consulting Society"]
 description:
 thumbnail: "/assets/images/gen/blog/Daily Signups.png"
 image: "/assets/images/gen/blog/WAU.png"
