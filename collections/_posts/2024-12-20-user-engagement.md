@@ -115,8 +115,9 @@ yammer는 engagement를 프로덕트와 상호작용함으로써 서버가 응�
 |---|---|
 | user_id | 유저의 고유 ID |
 | occurred_at | 이벤트 발생 시간 |
-| event_type | 이벤트 타입. signup_flow, engagement 두 가지 타입.<br><br>'signup_flow': 유저의 인증 과정에서 발생하는 활동들<br>engagement: 회원가입 이후 프로덕트 내에서 발생하는 일반 활동들 |
-| event_name | create_user: 회원가입 과정 동안 유저가 Yammer 데이터베이스에 추가되는 이벤트<br>enter_email: 회원가입 과정에서 이메일 입력<br>enter_info: 회원가입 과정에서 개인정보 입력<br>complete_signup: 회원가입 및 인증 과정을 모두 완료한 이벤트<br>home_page: 유저가 홈페이지를 로드한 이벤트<br>like_message: 다른 유저 메시지에 좋아요를 누른 이벤트<br>login: 로그인<br>search_autocomplete: 검색 자동완성 기능에서 항목을 선택한 이벤트<br>search_run: 유저가 검색 쿼리를 실행하고 결과를 가져오는 이벤트<br>search_click_result_X: 검색 결과 페이지에서 n번째 결과를 클릭한 이벤트<br>send_message: 메시지 전송<br>view_inbox: 메시지 인박스 조회 |
+| event_type | 이벤트 타입. signup_flow, engagement 두 가지 타입 |
+| event_name | create_user: 회원가입 과정 동안 유저가 Yammer 데이터베이스에 추가되는 이벤트
+enter_email: 회원가입 과정에서 이메일 입력<br>enter_info: 회원가입 과정에서 개인정보 입력<br>complete_signup: 회원가입 및 인증 과정을 모두 완료한 이벤트<br>home_page: 유저가 홈페이지를 로드한 이벤트<br>like_message: 다른 유저 메시지에 좋아요를 누른 이벤트<br>login: 로그인<br>search_autocomplete: 검색 자동완성 기능에서 항목을 선택한 이벤트<br>search_run: 유저가 검색 쿼리를 실행하고 결과를 가져오는 이벤트<br>search_click_result_X: 검색 결과 페이지에서 n번째 결과를 클릭한 이벤트<br>send_message: 메시지 전송<br>view_inbox: 메시지 인박스 조회 |
 | location | IP 주소를 바탕으로 추정한 이벤트 발생 국가 |
 | device | 각 이벤트 로그에 사용된 디바이스 타입 |
 
