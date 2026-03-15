@@ -106,10 +106,6 @@ yammer는 engagement를 프로덕트와 상호작용함으로써 서버가 응�
 이벤트 당 한개의 행을 가지고 있음. (이벤트 = 유저가 yammer에서 하는 활동)
 
 로그인, 메세지, 검색, 로그인 과정, 회원가입 과정 등
-### Table 2: tutorial.yammer_events
-
-이벤트당 한 개의 행을 가지는 테이블.  
-이벤트는 유저가 Yammer에서 수행한 활동을 의미한다.
 
 | Column | Description |
 |---|---|
@@ -140,7 +136,9 @@ yammer는 engagement를 프로덕트와 상호작용함으로써 서버가 응�
 |------|-------------|
 | user_id | 유저 고유 ID |
 | occurred_at | 이벤트가 일어난 시각 |
-| action | sent_weekly_digest : 기존의 관련 대화를 보여주는 요약 이메일을 받음, email_open : 유저가 이메일 조회, email_clickthrough : 이메일에 있는 링크 클릭 |
+| action | sent_weekly_digest : 기존의 관련 대화를 보여주는 요약 이메일을 받음|
+|  | email_open : 유저가 이메일 조회 |
+|  | email_clickthrough : 이메일에 있는 링크 클릭 |
 
 
 ### Table4 : benn.dimension_rollup_periods
@@ -156,7 +154,8 @@ SQL에서 INTERVAL()을 사용할 수도 있지만, 미리 정의된 테이블�
 | Column | Description |
 |------|-------------|
 | period_id | 기간 집계의 타입. period 1007은 7일을 단위로 집계 |
-| time_id | 특정한 데이터 포인트를 나타내는 ID. 차트의 축에 들어감. time_id가 2014-08-01이고 7일 간격으로 집계했을 경우에 8월 1일을 끝으로 하는 7일치 데이터를 나타냄|
+| time_id | 특정한 데이터 포인트를 나타내는 ID. 차트의 축에 들어감.|
+| | time_id가 2014-08-01이고 7일 간격으로 집계했을 경우에 8월 1일을 끝으로 하는 7일치 데이터를 나타냄|
 | pst_start | 이 롤업 기간이 시작되는 시간(태평양 표준시) |
 | pst_end | 이 롤업 시간이 끝나는 시간 |
 | utc_start | pst_start의 UTC 버전 |
